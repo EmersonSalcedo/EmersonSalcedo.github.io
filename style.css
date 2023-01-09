@@ -76,3 +76,14 @@ button{
 #copiar{
     display: none;
 }
+@media only screen and (max-width: 800px){
+    .izquierda{
+        width: 100%;
+    }
+    .derecha{
+        width: 100%;
+    }
+    button{
+        width: auto;
+    }
+}
